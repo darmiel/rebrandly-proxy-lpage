@@ -1,0 +1,17 @@
+{
+  "server": {
+    "port": 8086
+  },
+  "host": {
+    "localhost": {
+        "comment": "Test-Domain 1",
+      "landing": "https://google.com/",
+      "short": "https://goo.gl{path}"
+    },
+    "daniels-macbook-pro.local": {
+      "comment": "Test-Domain 2",
+      "landing": "https://localhost/",
+      "short": "https://local{path}"
+    }
+  }
+}

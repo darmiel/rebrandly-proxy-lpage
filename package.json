@@ -1,0 +1,27 @@
+{
+  "name": "rebrandlycustomlandingpage",
+  "version": "1.0.0",
+  "description": "custom landing page for rebrandly free",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:watch": "nodemon src/index.js",
+    "start:forever": "forever start src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darmiel/RebrandlyFreeLandingPage.git"
+  },
+  "author": "darmiel <hi@d2a.io>",
+  "bugs": {
+    "url": "https://github.com/darmiel/RebrandlyFreeLandingPage/issues"
+  },
+  "homepage": "https://github.com/darmiel/RebrandlyFreeLandingPage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
