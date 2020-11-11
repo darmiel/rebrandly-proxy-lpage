@@ -1,6 +1,7 @@
 {
   "server": {
-    "port": 8086
+    "port": 8086,
+    "bind": "127.0.0.1"
   },
   "host": {
     "localhost": {

@@ -67,7 +67,7 @@ app.get("*", (req, res) => {
   return res.status(302).redirect(short.replace("{path}", path));
 });
 
-app.listen(config.server.port, () => {
+app.listen(config.server.port, config.server.bind, () => {
   console.log("✅ Server is up and running:");
   console.log(`✅ http://${os.hostname()}:${config.server.port}`);
 });
