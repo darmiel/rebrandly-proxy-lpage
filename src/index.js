@@ -9,7 +9,7 @@ const app = express();
 app.use(helmet());
 app.use(morgan("combined"));
 
-const config = require("../config.json");
+const config = require(__dirname + "/../config.json");
 console.log("📄 Config:");
 console.log(config);
 
